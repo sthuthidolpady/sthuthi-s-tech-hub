@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Download } from "lucide-react";
 
 const navItems = [
   { label: "About", href: "#about" },
@@ -47,6 +47,15 @@ const Navbar = () => {
                 {item.label}
               </a>
             ))}
+            <a 
+              href="https://sthuthi-dolpady-resume-2025dec.tiiny.site" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-[#3B82F6] text-white text-sm font-medium rounded-lg hover:bg-[#2563EB] transition-colors shadow-md hover:shadow-lg"
+            >
+              <Download size={16} />
+              Resume
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -81,6 +90,15 @@ const Navbar = () => {
                   {item.label}
                 </a>
               ))}
+              <a 
+                href="https://sthuthi-dolpady-resume-2025dec.tiiny.site" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-[#3B82F6] text-white text-sm font-medium rounded-lg hover:bg-[#2563EB] transition-colors shadow-md"
+              >
+                <Download size={16} />
+                Resume
+              </a>
             </div>
           </motion.div>
         )}

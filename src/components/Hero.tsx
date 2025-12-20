@@ -80,7 +80,12 @@ const Hero = () => {
             <ExternalLink size={18} />
             View Projects
           </a>
-          <a href="/resume.pdf" download className="btn-outline flex items-center gap-2">
+          <a 
+            href="https://sthuthi-dolpady-resume-2025dec.tiiny.site" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-[#3B82F6] text-white font-medium rounded-lg hover:bg-[#2563EB] transition-colors shadow-md hover:shadow-lg"
+          >
             <Download size={18} />
             Download Resume
           </a>
