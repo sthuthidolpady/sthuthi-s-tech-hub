@@ -11,9 +11,6 @@ const technicalSkills = [{
   category: "Databases",
   skills: ["MySQL", "MongoDB"]
 }, {
-  category: "Core Concepts",
-  skills: ["Object-Oriented Programming", "REST APIs"]
-}, {
   category: "AI / ML",
   skills: ["TensorFlow", "CNNs", "MobileNetV2", "DenseNet121", "Multimodal Learning"]
 }];
@@ -67,7 +64,11 @@ const Skills = () => {
         }} className="bg-card border border-border rounded-lg p-5 card-hover">
               <h3 className="text-primary font-semibold mb-3">{skillGroup.category}</h3>
               <div className="flex flex-wrap gap-2">
-                {skillGroup.skills.map(skill => {})}
+                {skillGroup.skills.map(skill => (
+                  <span key={skill} className="px-3 py-1 bg-muted text-muted-foreground text-sm rounded-full">
+                    {skill}
+                  </span>
+                ))}
               </div>
             </motion.div>)}
         </div>
