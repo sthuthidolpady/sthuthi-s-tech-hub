@@ -6,10 +6,10 @@ const technicalSkills = [{
   skills: ["C", "C++", "Python", "Java"]
 }, {
   category: "Web Technologies",
-  skills: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "PHP"]
+  skills: ["HTML", "CSS", "JavaScript"]
 }, {
   category: "Databases",
-  skills: ["MySQL", "MongoDB"]
+  skills: ["MySQL"]
 }, {
   category: "AI / ML",
   skills: ["TensorFlow", "CNNs", "MobileNetV2", "DenseNet121", "Multimodal Learning"]

@@ -21,6 +21,31 @@ const projects = [
     tech: ["PHP", "XAMPP", "HTML", "CSS", "JavaScript"],
     github: "#",
   },
+  {
+  title: "College ERP System",
+  description: "A role-based college portal that allows administrators, faculty, and students to manage academic data, content, and information efficiently.",
+  tech: ["MySQL", "HTML", "Bootstrap 5", "JavaScript", "Django"],
+  github: "#",
+},
+{
+  title: "Doctor Appointment Scheduling Bot",
+  description: "An AI-powered chatbot that assists users in booking doctor appointments through natural language interaction and automated scheduling.",
+  tech: ["JavaScript", "Node.js", "React", "Vite", "Express.js", "Cohere AI"],
+  github: "#",
+},
+{
+  title: "DevNation-CMS",
+  description: "A content management system designed to manage and publish website content efficiently with a simple and user-friendly interface.",
+  tech: ["HTML", "CSS", "JavaScript", "PHP", "Blade"],
+  github: "#",
+},
+{
+  title: "Enigma-CMS",
+  description: "A content management system built to manage and update website content efficiently with a clean and intuitive interface.",
+  tech: ["HTML", "CSS", "JavaScript", "PHP", "Blade"],
+  github: "#",
+},
+
 ];
 
 const Projects = () => {

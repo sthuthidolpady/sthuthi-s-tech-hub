@@ -6,13 +6,13 @@ const services = [
   {
     icon: Globe,
     title: "Web Development",
-    description: "Responsive, mobile-first websites with modern frontend and backend development.",
-    features: ["Frontend & Backend Development", "Responsive Design", "Database-driven Applications"],
+    description: "Building responsive and modern web applications.",
+    features: ["Frontend", "Responsive Design", "Database-driven Applications"],
   },
   {
     icon: Cpu,
     title: "AI / Machine Learning",
-    description: "Machine learning and deep learning models for academic and research-oriented projects.",
+    description: "Build AI and machine learning models to analyze data and solve real-world problems",
     features: ["CNN-based Image Analysis", "Deep Learning Models", "Research-oriented AI Projects"],
   },
 ];
@@ -30,7 +30,7 @@ const Services = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-center">
-            What I <span className="gradient-text">Offer</span>
+            Areas of <span className="gradient-text">Interest</span>
           </h2>
           <div className="w-16 h-1 bg-primary mx-auto mb-10 rounded-full" />
         </motion.div>

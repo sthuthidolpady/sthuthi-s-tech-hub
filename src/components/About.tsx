@@ -8,7 +8,7 @@ const education = [
     degree: "Bachelor of Engineering – Computer Science and Engineering",
     institution: "A J Institute of Engineering and Technology, Mangaluru",
     period: "2022 – 2026",
-    grade: "CGPA: 7.7",
+    
   },
   {
     degree: "Pre-University (PCMB)",
@@ -48,8 +48,8 @@ const About = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-muted-foreground text-lg leading-relaxed max-w-3xl mx-auto text-center mb-12"
         >
-          I am Sthuthi Dolpady, a Computer Science and Engineering student graduating in 2026, with a strong interest in Web Development and Artificial Intelligence. I enjoy solving real-world problems through clean code, intelligent systems, and impactful projects. Along with technical expertise, I bring leadership experience, creativity, and active involvement in open-source and cultural activities.
-        </motion.p>
+          I am Sthuthi Dolpady, a Computer Science and Engineering student graduating in 2026 with a strong interest in Web Development and Artificial Intelligence. I enjoy building responsive, user-centric applications and working on AI-based projects that solve real-world problems. With hands-on project experience and a continuous learning mindset, I aim to grow as a skilled and reliable software developer.
+           </motion.p>
 
         {/* Education */}
         <motion.div
